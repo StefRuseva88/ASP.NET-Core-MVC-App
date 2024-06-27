@@ -1,7 +1,7 @@
 # ASP.NET-Core-MVC-App
-## Create Simple Pages in an ASP.NET Core App
 
-This repository contains the exercise assignments for the **Create Simple Pages in an ASP.NET Core App** course at SoftUni.
+---
+### This repository contains the exercise assignments for the **ASP.NET Fundamentals** course @ SoftUni
 
 ## Table of Contents
 1. [Introduction](#introduction)
