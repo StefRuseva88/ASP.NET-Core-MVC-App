@@ -91,4 +91,11 @@ Open a web browser and navigate to `https://localhost:{port}` to view your pages
 
 By completing these exercises, you will have a basic understanding of how to create and manage simple pages in an ASP.NET Core application using Razor Pages. For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
 
-Feel free to reach out if you have any questions or need further assistance.
+## Contributing
+Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, please open an issue in the repository.
