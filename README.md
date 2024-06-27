@@ -51,3 +51,40 @@ Before you begin, ensure you have the following installed:
    ```csharp
    app.MapRazorPages();
 
+### 4. Run the Application
+
+Press `F5` or click the **Run** button to start the application.
+
+Open a web browser and navigate to `https://localhost:{port}` to view your pages.
+
+## Exercise Assignments
+
+### Exercise 1: Create a Home Page
+
+- Create a `Home` Razor page.
+- Add a welcome message and some basic HTML content.
+- Ensure it is set as the default page.
+
+### Exercise 2: Create an About Page
+
+- Create an `About` Razor page.
+- Add information about the application or the developer.
+- Link this page from the home page.
+
+### Exercise 3: Create a Contact Page
+
+- Create a `Contact` Razor page.
+- Add a form for users to submit their contact information.
+- Implement basic form validation.
+
+### Exercise 4: Styling the Pages
+
+- Add a `wwwroot` folder and include a CSS file.
+- Apply basic styling to your Razor pages.
+- Ensure the styles are consistent across all pages.
+
+## Conclusion
+
+By completing these exercises, you will have a basic understanding of how to create and manage simple pages in an ASP.NET Core application using Razor Pages. For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
+
+Feel free to reach out if you have any questions or need further assistance.
