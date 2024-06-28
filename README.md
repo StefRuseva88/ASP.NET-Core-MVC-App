@@ -87,9 +87,9 @@ the common design of all pages.
 products collection.
 - Now you should create a "Product" folder in the "Views" folder, which will have all views for the
 `ProductController` methods.
-- Try the "All Products" page on "/Product/All" in the browser.
+- Try the "All Products" page on `/Product/All` in the browser.
   
-### Exercise 6: Styling the Pages
+### Exercise 7: Styling the Pages
 - Add a `wwwroot` folder and include a CSS file.
 - Apply basic styling to your Razor pages.
 - Ensure the styles are consistent across all pages.
