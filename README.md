@@ -17,6 +17,9 @@
    - [4. Run the Application](#4-run-the-application)
 4. [Exercise Assignments](#exercise-assignments)
 5. [Conclusion](#conclusion)
+6. [](#)
+7. [](#)
+8. [](#)
 
 ## Introduction
 
@@ -95,7 +98,6 @@ the common design of all pages.
 - Ensure the styles are consistent across all pages.
 
 ## Conclusion
-
 By completing these exercises, you will have a basic understanding of how to create and manage simple pages in an ASP.NET Core application using Razor Pages. For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
 
 ## Contributing
