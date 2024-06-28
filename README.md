@@ -1,12 +1,10 @@
 # ASP.NET-Core-MVC-WebApp
-
 ![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
 ---
 ### This repository contains the exercise assignments for the **ASP.NET Fundamentals** course @ SoftUni
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
@@ -22,20 +20,16 @@
 8. [Contact](#contact)
 
 ## Introduction
-
 This document outlines the steps and exercises for creating simple pages in an ASP.NET Core application. The goal is to familiarize you with the basics of ASP.NET Core and Razor Pages.
 
 ## Prerequisites
-
 Before you begin, ensure you have the following installed:
 - .NET 6.0 SDK or later
 - Visual Studio 2022 or Visual Studio Code
 - Basic knowledge of C# and HTML
 
 ## Getting Started
-
 ### 1. Create a New ASP.NET Core Project
-
 1. Open Visual Studio 2022 or Visual Studio Code.
 2. Create a new project.
 3. Select **ASP.NET Core Web App**.
@@ -44,14 +38,12 @@ Before you begin, ensure you have the following installed:
 6. Click **Create**.
 
 ### 2. Add Razor Pages
-
 1. In Solution Explorer, right-click on the `Pages` folder.
 2. Select **Add** > **New Item**.
 3. Choose **Razor Page** and name it `Index`.
 4. Repeat to add additional pages as needed.
 
 ### 3. Configure Routing
-
 1. Open `Startup.cs` or `Program.cs` (depending on your project setup).
 2. Ensure the following code is present to configure routing:
 
@@ -59,42 +51,44 @@ Before you begin, ensure you have the following installed:
    app.MapRazorPages();
 
 ### 4. Run the Application
-
 Press `F5` or click the **Run** button to start the application.
 
 Open a web browser and navigate to `https://localhost:{port}` to view your pages.
 
 ## Exercise Assignments
-
 ### Exercise 1: Create a Home Page
-
 - Create a `Home` Razor page.
 - Add a welcome message and some basic HTML content.
 - Ensure it is set as the default page.
 
 ### Exercise 2: Create an About Page
-
 - Create an `About` Razor page.
 - Add information about the application or the developer.
 - Link this page from the home page.
 
 ### Exercise 3: Create a Contact Page
-
 - Create a `Contact` Razor page.
 - Add a form for users to submit their contact information.
 - Implement basic form validation.
 
 ### Exercise 4: Add Navigation Links
-
 - To add links, go the `_Layout.cshtml` partial view in the `/Views/Shared` folder, as this view is responsible for
 the common design of all pages.
 - The `asp-controller` and `asp-action` tag helpers set the controller and action names of the page.
 - Try out if the links work correctly.
 
-### Exercise 5: Create "All Products" Page
+### Exercise 5: Create "Products Controller" 
+- Create the `ProductController` in the "Controllers" folder.
+- Create a `ProductViewModel` for these products, which should have an id,name and price.
+- Add a field with three products to the `ProductController`.
+
+### Exercise 6: Create "All Products" Page
+- Create an `All()` controller method in the `ProductController`, which should only return a view with the
+products collection.
+- Now you should create a "Product" folder in the "Views" folder, which will have all views for the
+`ProductController` methods.
 
 ### Exercise 6: Styling the Pages
-
 - Add a `wwwroot` folder and include a CSS file.
 - Apply basic styling to your Razor pages.
 - Ensure the styles are consistent across all pages.
