@@ -81,7 +81,14 @@ Open a web browser and navigate to `https://localhost:{port}` to view your pages
 - Add a form for users to submit their contact information.
 - Implement basic form validation.
 
-### Exercise 4: Styling the Pages
+### Exercise 4: Add Navigation Links
+
+- To add links, go the `_Layout.cshtml` partial view in the `/Views/Shared` folder, as this view is responsible for
+the common design of all pages.
+- The `asp-controller` and `asp-action` tag helpers set the controller and action names of the page.
+- Try out if the links work correctly.
+
+### Exercise 5: Styling the Pages
 
 - Add a `wwwroot` folder and include a CSS file.
 - Apply basic styling to your Razor pages.
