@@ -91,7 +91,9 @@ the common design of all pages.
 - The `asp-controller` and `asp-action` tag helpers set the controller and action names of the page.
 - Try out if the links work correctly.
 
-### Exercise 5: Styling the Pages
+### Exercise 5: Create "All Products" Page
+
+### Exercise 6: Styling the Pages
 
 - Add a `wwwroot` folder and include a CSS file.
 - Apply basic styling to your Razor pages.
