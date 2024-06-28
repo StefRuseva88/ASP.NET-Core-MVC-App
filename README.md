@@ -18,8 +18,8 @@
 4. [Exercise Assignments](#exercise-assignments)
 5. [Conclusion](#conclusion)
 6. [Contributing](#contributing)
-7. [](#)
-8. [](#)
+7. [License](#license)
+8. [Contact](#contact)
 
 ## Introduction
 
