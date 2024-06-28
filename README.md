@@ -1,4 +1,4 @@
-# ASP.NET-Core-MVC-App
+# ASP.NET-Core-MVC-WebApp
 
 ![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
