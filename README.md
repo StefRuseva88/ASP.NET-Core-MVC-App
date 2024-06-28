@@ -17,7 +17,7 @@
    - [4. Run the Application](#4-run-the-application)
 4. [Exercise Assignments](#exercise-assignments)
 5. [Conclusion](#conclusion)
-6. [](#)
+6. [Contributing](#contributing)
 7. [](#)
 8. [](#)
 
