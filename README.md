@@ -94,6 +94,15 @@ products collection.
 - Apply basic styling to your Razor pages.
 - Ensure the styles are consistent across all pages.
 
+### Task 7: Styling the Pages
+
+### Task 8: Styling the Pages
+
+### Task 9: Styling the Pages
+- Add a `wwwroot` folder and include a CSS file.
+- Apply basic styling to your Razor pages.
+- Ensure the styles are consistent across all pages.
+  
 ## Conclusion
 By completing these tasks, you will have a basic understanding of how to create and manage simple pages in an ASP.NET Core application using Razor Pages. For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
 
