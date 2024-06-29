@@ -3,13 +3,19 @@
 @{
     ViewData["Title"] = "All Products";
 }
-
-<div class="card" style="width: 18rem">
-    <div class="card-header">@ViewData["Title"]</div>
-    <ul class="list-group list-group-flush">
-        @foreach(ProductViewModel product in Model)
-        {
-            <li class="list-group-item"><a  asp-controller="Product" asp-action="ById" asp-route-id="@product.Id">@product.Name - @product.Price$</a></li>
-        }
-    </ul>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card" style="width: 18rem">
+            <div class="card-header">@ViewData["Title"]</div>
+            <ul class="list-group list-group-flush">
+                @foreach (ProductViewModel product in Model)
+                {
+                    <li class="list-group-item"><a asp-controller="Product" asp-action="ById" asp-route-id="@product.Id">@product.Name - @product.Price$</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="col-lg-4">
+    <a class="btn btn-primary" asp-controller="Product" asp-action="DownloadProductsInfo">Download Products info</a>
 </div>
