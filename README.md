@@ -95,7 +95,7 @@ products collection.
 - Ensure the styles are consistent across all pages.
 
 ## Conclusion
-By completing these exercises, you will have a basic understanding of how to create and manage simple pages in an ASP.NET Core application using Razor Pages. For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
+By completing these tasks, you will have a basic understanding of how to create and manage simple pages in an ASP.NET Core application using Razor Pages. For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
