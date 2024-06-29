@@ -13,7 +13,7 @@
    - [2. Add Razor Pages](#2-add-razor-pages)
    - [3. Configure Routing](#3-configure-routing)
    - [4. Run the Application](#4-run-the-application)
-4. [Exercise Assignments](#exercise-assignments)
+4. [Assignments](#assignments)
 5. [Conclusion](#conclusion)
 6. [Contributing](#contributing)
 7. [License](#license)
