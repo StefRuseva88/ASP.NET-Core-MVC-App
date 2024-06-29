@@ -1,4 +1,4 @@
-﻿@using ASP.NET_MVC_Core_WebApp.ViewModels.Product;
+@using ASP.NET_MVC_Core_WebApp.ViewModels.Product;
 @model IEnumerable<ProductViewModel>;
 @{
     ViewData["Title"] = "All Products";
@@ -9,7 +9,7 @@
     <ul class="list-group list-group-flush">
         @foreach(ProductViewModel product in Model)
         {
-            <li class="list-group-item">@product.Name - @product.Price $</li>
+            <li class="list-group-item"><a  asp-controller="Product" asp-action="ById" asp-route-id="@product.Id">@product.Name - @product.Price$</a></li>
         }
     </ul>
 </div>
