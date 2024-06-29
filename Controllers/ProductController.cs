@@ -1,7 +1,8 @@
 using ASP.NET_MVC_Core_WebApp.ViewModels.Product;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 using Newtonsoft.Json;
-
+using System.Text;
 using static ASP.NET_MVC_Core_WebApp.Seeding.ProductsData;
 
 namespace ASP.NET_MVC_Core_WebApp.Controllers
@@ -27,6 +28,22 @@ namespace ASP.NET_MVC_Core_WebApp.Controllers
         {
             string jsonText = JsonConvert.SerializeObject(Products, Formatting.Indented);
             return Json(jsonText);
+        }
+
+        public IActionResult DownloadProductsInfo()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            foreach (var product in Products)
+            {
+                stringBuilder.AppendLine($"Product with Id: {product.Id}");
+                stringBuilder.AppendLine($"## Product Name: {product.Name}");
+                stringBuilder.AppendLine($"## Price: {product.Price:f2}$");
+                stringBuilder.AppendLine($"-------------------------------");
+            }
+
+            Response.Headers.Add(HeaderNames.ContentDisposition, "filename=products.txt");
+            Response.Headers.Add(HeaderNames.ContentType, "text/plain");
+            return File(Encoding.UTF8.GetBytes(stringBuilder.ToString()),"text/plain"); 
         }
     }
 }
