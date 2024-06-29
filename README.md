@@ -83,11 +83,11 @@ the common design of all pages.
 - Add a field with three products to the `ProductController`.
 
 ### Task 6: Create "All Products" Page
-- **Return Products as JSON**
-- **Return Products as Plain Text**
-- **Download Products As Text File**
-- **Access the "All Products" Page on Another URL**
-- **Add Search to the "All Products" Page**
+- **Return Products as JSON**.
+- **Return Products as Plain Text**.
+- **Download Products As Text File**.
+- **Access the "All Products" Page on Another URL**.
+- **Add Search to the "All Products" Page**.
 
 ### Task 7: Add Navigation Links
 
