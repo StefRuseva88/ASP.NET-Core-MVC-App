@@ -83,17 +83,9 @@ the common design of all pages.
 - Add a field with three products to the `ProductController`.
 
 ### Task 6: Create "All Products" Page
-- Create an `All()` controller method in the `ProductController`, which should only return a view with the
-products collection.
-- Now you should create a "Product" folder in the "Views" folder, which will have all views for the
-`ProductController` methods.
-- Try the "All Products" page on `/Product/All` in the browser.
-  
-### Task 7: Return Products as JSON
-
-### Task 8: Return Products as Plain Text
-
-### Task 9: Download Products As Text File
+- 1.**Return Products as JSON**
+- 2.**Return Products as Plain Text**
+- 3.**Download Products As Text File**
 
 ### Task 10: Styling the Pages
 - Add a `wwwroot` folder and include a CSS file.
