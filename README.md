@@ -93,7 +93,9 @@ products collection.
 
 ### Task 8: Return Products as Plain Text
 
-### Task 9: Styling the Pages
+### Task 9: Download Products As Text File
+
+### Task 10: Styling the Pages
 - Add a `wwwroot` folder and include a CSS file.
 - Apply basic styling to your Razor pages.
 - Ensure the styles are consistent across all pages.
