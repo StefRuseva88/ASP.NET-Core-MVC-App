@@ -83,11 +83,17 @@ the common design of all pages.
 - Add a field with three products to the `ProductController`.
 
 ### Task 6: Create "All Products" Page
-- 1.**Return Products as JSON**
-- 2.**Return Products as Plain Text**
-- 3.**Download Products As Text File**
+- **Return Products as JSON**
+- **Return Products as Plain Text**
+- **Download Products As Text File**
+- **Access the "All Products" Page on Another URL**
+- **Add Search to the "All Products" Page**
 
-### Task 10: Styling the Pages
+### Task 7: Add Navigation Links
+
+### Task 8: Create Simple Chat ASP.NET Core MVC App
+
+### Task 9: Styling the Pages
 - Add a `wwwroot` folder and include a CSS file.
 - Apply basic styling to your Razor pages.
 - Ensure the styles are consistent across all pages.
