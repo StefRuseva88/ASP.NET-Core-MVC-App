@@ -20,7 +20,7 @@
 8. [Contact](#contact)
 
 ## Introduction
-This document outlines the steps and exercises for creating simple pages in an ASP.NET Core application. The goal is to familiarize you with the basics of ASP.NET Core and Razor Pages.
+This document outlines the steps and tasks for creating simple pages in an ASP.NET Core application. The goal is to familiarize you with the basics of ASP.NET Core and Razor Pages.
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
