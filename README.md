@@ -89,14 +89,9 @@ products collection.
 `ProductController` methods.
 - Try the "All Products" page on `/Product/All` in the browser.
   
-### Task 7: Styling the Pages
-- Add a `wwwroot` folder and include a CSS file.
-- Apply basic styling to your Razor pages.
-- Ensure the styles are consistent across all pages.
+### Task 7: Return Products as JSON
 
-### Task 7: Styling the Pages
-
-### Task 8: Styling the Pages
+### Task 8: Return Products as Plain Text
 
 ### Task 9: Styling the Pages
 - Add a `wwwroot` folder and include a CSS file.
