@@ -85,7 +85,7 @@ the common design of all pages.
 ### Task 6: Create "All Products" Page
 - **Return "All Products" as JSON**.
 - **Return "All Products" as Plain Text**.
-- **Download "All Products" As Text File**.
+- **Download "All Products" as Text File**.
 - **Access the "All Products" Page on Another URL**.
 - **Add Search to the "All Products" Page**.
 
