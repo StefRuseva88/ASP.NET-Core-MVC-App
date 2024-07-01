@@ -90,7 +90,9 @@ the common design of all pages.
 - **Add Search to the "All Products" Page**.
 
 ### Task 7: Add Navigation Links
-
+- Modify the `_Layout.cshtml` view to have all the necessary links.
+- Try out all new links in the browser. They should access the correct pages.
+  
 ### Task 8: Create Simple Chat ASP.NET Core MVC App
 
 ### Task 9: Styling the Pages
