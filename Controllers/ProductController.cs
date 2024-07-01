@@ -9,9 +9,14 @@ namespace ASP.NET_MVC_Core_WebApp.Controllers
 {
     public class ProductController : Controller
     {
-        public IActionResult All()
+        public IActionResult All(string keyword)
         {
-            return View(Products);
+            if (String.IsNullOrWhiteSpace(keyword))
+            {
+                return View(Products);
+            }
+            IEnumerable<ProductViewModel> productsAftersearch = Products.Where(p => p.Name.ToLower().Contains(keyword.ToLower())).ToArray();
+            return View(productsAftersearch);
         }
 
         [Route("/Product/Details/{id}")]
