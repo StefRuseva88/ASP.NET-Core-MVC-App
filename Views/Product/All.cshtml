@@ -10,7 +10,7 @@
             <ul class="list-group list-group-flush">
                 @foreach (ProductViewModel product in Model)
                 {
-                    <li class="list-group-item"><a asp-controller="Product" asp-action="ById" asp-route-id="@product.Id">@product.Name - @product.Price$</a></li>
+                    <li class="list-group-item"><a href="/Product/Details/@product.Id">@product.Name - @product.Price$</a></li>
                 }
             </ul>
         </div>
