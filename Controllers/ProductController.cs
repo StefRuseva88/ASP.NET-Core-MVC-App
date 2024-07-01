@@ -14,6 +14,7 @@ namespace ASP.NET_MVC_Core_WebApp.Controllers
             return View(Products);
         }
 
+        [Route("/Product/Details/{id}")]
         public IActionResult ById(string id)
         {
             ProductViewModel? product = Products.FirstOrDefault(p => p.Id.ToString().Equals(id));
@@ -41,7 +42,7 @@ namespace ASP.NET_MVC_Core_WebApp.Controllers
                 stringBuilder.AppendLine($"-------------------------------");
             }
 
-            Response.Headers.Add(HeaderNames.ContentDisposition, "filename=products.txt");
+            Response.Headers.Add(HeaderNames.ContentDisposition, "attachment;filename=products.txt");
             Response.Headers.Add(HeaderNames.ContentType, "text/plain");
             return File(Encoding.UTF8.GetBytes(stringBuilder.ToString()),"text/plain"); 
         }
