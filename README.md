@@ -105,7 +105,7 @@ the common design of all pages.
 
 ### Task 9: Styling the Pages
 - Add a `wwwroot` folder and include a CSS file.
-- Apply basic styling to your Razor pages.
+- Apply basic styling to your pages.
 - Ensure the styles are consistent across all pages.
   
 ## Conclusion
