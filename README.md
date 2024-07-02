@@ -36,7 +36,6 @@ Before you begin, ensure you have the following installed:
 3. Select **ASP.NET Core Web App (Model-View-Controller)**.
 4. Choose a name for your project and specify the location.
 5. Ensure **.NET 6.0 (Long-term support)** is selected.
-6. Click **Create**.
 
 ### 2. Add Controllers and Views
 1. In Solution Explorer, right-click on the `Controllers` folder.
