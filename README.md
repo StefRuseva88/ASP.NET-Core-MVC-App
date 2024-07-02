@@ -64,7 +64,8 @@ Open a web browser and navigate to `https://localhost:{port}` to view your pages
 
 ## Assignments
 ### Task 1: Create a Home Page
-- Create a `Home` Razor page.
+- Create an Index action in the HomeController.
+- Add a view for the Index action.
 - Add a welcome message and some basic HTML content.
 - Ensure it is set as the default page.
 
