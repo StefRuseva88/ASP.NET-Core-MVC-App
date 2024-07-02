@@ -27,7 +27,6 @@ This document outlines the steps and tasks for creating an ASP.NET Core MVC appl
 Before you begin, ensure you have the following installed:
 - .NET 6.0 SDK or later
 - Visual Studio 2022 or Visual Studio Code
-- Basic knowledge of C# and HTML
 
 ## Getting Started
 ### 1. Create a New ASP.NET Core MVC Project
