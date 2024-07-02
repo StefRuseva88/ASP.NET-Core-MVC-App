@@ -10,7 +10,7 @@
 2. [Prerequisites](#prerequisites)
 3. [Getting Started](#getting-started)
    - [1. Create a New ASP.NET Core Project](#1-create-a-new-aspnet-core-project)
-   - [2. Add Razor Pages](#2-add-razor-pages)
+   - [2. Add MVC Support](#2-add-mvc-support)
    - [3. Configure Routing](#3-configure-routing)
    - [4. Run the Application](#4-run-the-application)
 4. [Assignments](#assignments)
@@ -20,7 +20,7 @@
 8. [Contact](#contact)
 
 ## Introduction
-This document outlines the steps and tasks for creating simple pages in an ASP.NET Core application. The goal is to familiarize you with the basics of ASP.NET Core and Razor Pages.
+This document outlines the steps and tasks for creating simple pages in an ASP.NET Core MVC application. The goal is to familiarize you with the basics of ASP.NET Core and MVC (Model View Controller).
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
@@ -32,16 +32,16 @@ Before you begin, ensure you have the following installed:
 ### 1. Create a New ASP.NET Core Project
 1. Open Visual Studio 2022 or Visual Studio Code.
 2. Create a new project.
-3. Select **ASP.NET Core Web App**.
+3. Select **ASP.NET Core Web App (Model-View-Controller)**.
 4. Choose a name for your project and specify the location.
 5. Ensure **.NET 6.0 (Long-term support)** is selected.
 6. Click **Create**.
 
-### 2. Add Razor Pages
-1. In Solution Explorer, right-click on the `Pages` folder.
-2. Select **Add** > **New Item**.
-3. Choose **Razor Page** and name it `Index`.
-4. Repeat to add additional pages as needed.
+### 2. Add MVC Support
+ASP.NET Core MVC support is included by default when you create an ASP.NET Core Web App (Model-View-Controller) project. If you start from a different template, ensure you have the following package installed:
+```bash
+dotnet add package Microsoft.AspNetCore.Mvc
+```
 
 ### 3. Configure Routing
 1. Open `Startup.cs` or `Program.cs` (depending on your project setup).
