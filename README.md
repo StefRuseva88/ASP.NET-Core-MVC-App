@@ -4,7 +4,7 @@
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
 ---
-### This repository contains the exercise assignments for the **ASP.NET Fundamentals** course @ SoftUni
+### This repository contains the assignments for the **ASP.NET Fundamentals** course @ SoftUni
 
 ## Table of Contents
 1. [Introduction](#introduction)
