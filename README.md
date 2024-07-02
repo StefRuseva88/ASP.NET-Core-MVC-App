@@ -44,11 +44,20 @@ dotnet add package Microsoft.AspNetCore.Mvc
 ```
 
 ### 3. Configure Routing
-1. Open `Startup.cs` or `Program.cs` (depending on your project setup).
-2. Ensure the following code is present to configure routing:
+Open `Startup.cs` or `Program.cs` (depending on your project setup).
 
-   ```csharp
-   app.MapRazorPages();
+Ensure the following code is present to configure routing:
+
+```csharp
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+```
 
 ### 4. Run the Application
 Press `F5` or click the **Run** button to start the application.
@@ -57,17 +66,17 @@ Open a web browser and navigate to `https://localhost:{port}` to view your pages
 
 ## Assignments
 ### Task 1: Create a Home Page
-- Create a `Home` Razor page.
-- Add a welcome message and some basic HTML content.
+- Create a `HomeController` in the "Controllers" folder.
+- Add an `Index` action method that returns a view with a welcome message and some basic HTML content.
 - Ensure it is set as the default page.
 
 ### Task 2: Create an About Page
-- Create an `About` Razor page.
+- Create an `About` page.
 - Add information about the application or the developer.
 - Link this page from the home page.
 
 ### Task 3: Create a Contact Page
-- Create a `Contact` Razor page.
+- Create a `Contact` page.
 - Add a form for users to submit their contact information.
 - Implement basic form validation.
 
