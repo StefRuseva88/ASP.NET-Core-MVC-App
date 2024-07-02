@@ -70,12 +70,12 @@ Open a web browser and navigate to `https://localhost:{port}` to view your pages
 - Ensure it is set as the default page.
 
 ### Task 2: Create an About Page
-- Create an `About` Razor page.
+- Create an `About` page.
 - Add information about the application or the developer.
 - Link this page from the home page.
 
 ### Task 3: Create a Contact Page
-- Create a `Contact` Razor page.
+- Create a `Contact` page.
 - Add a form for users to submit their contact information.
 - Implement basic form validation.
 
