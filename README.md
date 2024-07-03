@@ -87,7 +87,7 @@ the common design of all pages.
 ### Task 5: Create "Products Controller" 
 - Create the `ProductController` in the "Controllers" folder.
 - Create a `ProductViewModel` for these products, which should have an id,name and price.
-- Add a field with three products to the `ProductController`.
+- Add a field with products to the `ProductController`.
 
 ### Task 6: Create "All Products" Page
 - **Return "All Products" as JSON**.
