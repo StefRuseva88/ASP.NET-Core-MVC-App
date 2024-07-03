@@ -30,18 +30,18 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 ### 1. Create a New ASP.NET Core MVC Project
-1. Open Visual Studio 2022 or Visual Studio Code.
-2. Create a new project.
-3. Select **ASP.NET Core Web App (Model-View-Controller)**.
-4. Choose a name for your project and specify the location.
-5. Ensure **.NET 6.0 (Long-term support)** is selected.
+- Open Visual Studio 2022 or Visual Studio Code.
+- Create a new project.
+- Select **ASP.NET Core Web App (Model-View-Controller)**.
+- Choose a name for your project and specify the location.
+- Ensure **.NET 6.0 (Long-term support)** is selected.
 
 ### 2. Add Controllers and Views
-1. In Solution Explorer, right-click on the `Controllers` folder.
-2. Select **Add** > **Controller**.
-3. Choose **MVC Controller - Empty** and name it `HomeController`.
-4. Repeat to add additional controllers as needed.
-5. To add views, right-click on the `Views` folder, create a new folder with the name of your controller (e.g., `Home`), and add a new view (e.g., `Index.cshtml`) within that folder.
+- In Solution Explorer, right-click on the `Controllers` folder.
+- Select **Add** > **Controller**.
+- Choose **MVC Controller - Empty** and name it `HomeController`.
+- Repeat to add additional controllers as needed.
+- To add views, right-click on the `Views` folder, create a new folder with the name of your controller (e.g., `Home`), and add a new view (e.g., `Index.cshtml`) within that folder.
 
 ### 3. Configure Routing
 1. Open `Startup.cs` or `Program.cs` (depending on your project setup).
