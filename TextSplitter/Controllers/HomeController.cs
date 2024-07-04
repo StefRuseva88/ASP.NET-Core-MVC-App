@@ -20,13 +20,9 @@ namespace TextSplitter.Controllers
         [HttpPost]
         public IActionResult Split(TextSplitterViewModel textViewModel)
         {
-            if(String.IsNullOrWhiteSpace(textViewModel.TextToSplit))
+            if(!ModelState.IsValid)
             {
-                return this.RedirectToAction("Index", new TextSplitterViewModel()
-                {
-                    SplitText = string.Empty,
-                    TextToSplit = string.Empty
-                });
+                return this.RedirectToAction("Index", textViewModel);
             }
 
             string[] words = textViewModel.TextToSplit.Split(" ", StringSplitOptions.RemoveEmptyEntries)
