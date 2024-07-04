@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using TextSplitter.Models;
 
 namespace TextSplitter.Controllers
@@ -13,20 +12,29 @@ namespace TextSplitter.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(TextSplitterViewModel textViewModel)
         {
-            return View();
+            return View(textViewModel);
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult Split(TextSplitterViewModel textViewModel)
         {
-            return View();
-        }
+            if(String.IsNullOrWhiteSpace(textViewModel.TextToSplit))
+            {
+                return this.RedirectToAction("Index", new TextSplitterViewModel()
+                {
+                    SplitText = string.Empty,
+                    TextToSplit = string.Empty
+                });
+            }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            string[] words = textViewModel.TextToSplit.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+            string splitText = string.Join(Environment.NewLine, words);
+
+            textViewModel.SplitText = splitText;
+            return this.RedirectToAction("Index", textViewModel);
         }
     }
 }
